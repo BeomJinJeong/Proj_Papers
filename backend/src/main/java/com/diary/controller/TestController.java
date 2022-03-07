@@ -16,6 +16,7 @@ public class TestController {
 
     @GetMapping("/")
     public String getTest(){
+        System.out.println("hi");
         return testService.getTestVal();
     }
 }
